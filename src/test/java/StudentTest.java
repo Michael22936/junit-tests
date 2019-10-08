@@ -75,10 +75,7 @@ public class StudentTest {
 
     @Test
     public void testIfAddStudentWorks() {
-        ceres.addStudent(student);
-        assertEquals(1, ceres.getStudents().size());
-        ceres.addStudent(student1);
-        assertEquals(2, ceres.getStudents().size());
+        assertEquals(3, ceres.getStudents().size());
     }
 
     @Test
